@@ -7,7 +7,7 @@ import path from 'path';
 const artifactPath = path.resolve('./artifacts/contracts/HelloWorld.sol/HelloWorld.json');
 const contractJson = JSON.parse(fs.readFileSync(artifactPath, 'utf-8'));
 
-const PRIVATE_KEY = '0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e';
+const PRIVATE_KEY = '';
 
 async function main() {
   // Wallet client: for sending transactions
